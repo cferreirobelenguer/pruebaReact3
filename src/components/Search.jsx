@@ -40,13 +40,14 @@ const Search=()=>{
         
     
     return(
-        <div className="containerBuscador">
+        <section className="containerBuscador">
         
             <h1>Buscador de libros</h1>
-            <div className="input-group rounded" id="buscador">
-                <p>
+            <br></br>
+            <p>
                     <label htmlFor='busqueda'>Introduce un libro &nbsp;&nbsp;</label>
-                </p>
+            </p>
+            <div className="input-group rounded" id="buscador">
                 
                     <input type="search"
                         ref={titulo}
@@ -86,7 +87,7 @@ const Search=()=>{
                 }
                         
             </div>
-        </div>
+        </section>
     )
 }
 export default Search
