@@ -1,14 +1,24 @@
 
 .containerBuscador{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding:30px
 }
 #buscador{
     padding:30px;
     width: 50vw;
+    justify-content: center;
 }
+/*Resultados en horizontal y que se pueda hacer scroll con el ratón*/
 #resultado{
-    padding:30px
+    
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    white-space: nowrap;
+}
+#hijoResultado{
+    width: 1500px;
+    height: 100px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    display: inline-block;
 }
